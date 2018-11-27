@@ -4,8 +4,10 @@
     "description": "Block the popup for the Virginia Tech SPOT survey.",
     "manifest_version": 2,
     "content_scripts": [
-    {
-     "matches": ["https://canvas.vt.edu/"],
-     "js": ["block.js"]
-    }]
+        {
+            "matches": ["https://canvas.vt.edu/"],
+            "js": ["block.js"]
+        }
+    ],
+    "icons": { "128": "logo.png" }
   }

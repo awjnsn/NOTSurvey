@@ -1,0 +1,11 @@
+  {
+    "name": "NOTSurvey",
+    "version": "1.0",
+    "description": "Block the popup for the Virginia Tech SPOT survey.",
+    "manifest_version": 2,
+    "content_scripts": [
+    {
+     "matches": ["https://canvas.vt.edu/"],
+     "js": ["block.js"]
+    }]
+  }

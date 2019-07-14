@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "matches": ["https://canvas.vt.edu/"],
+            "matches": ["https://canvas.vt.edu/", "https://vt.instructure.com/"],
             "js": ["block.js"]
         }
     ],
